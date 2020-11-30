@@ -9,13 +9,13 @@ def main():
     #if score < 0:, use while to form a loop.
         print("Invalid score")
         score = float(input("Enter score: "))
-        if 90>score >=50 :
+    if 90>score >=50:
             #change if to elif
-            print("Passable")
-        elif score>=90:
+        print("Passable")
+    elif score>=90:
         #if score > 90:
-            print("Excellent")
+        print("Excellent")
     #if score < 50:
-        else:
-            print("Bad")
+    else:
+        print("Bad")
 main()
