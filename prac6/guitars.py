@@ -2,7 +2,7 @@ from prac6.guitar import Guitar
 
 
 def main():
-    """Guitar program, u sing Gu itar class."""
+    """Guitar pr ogram, u sing Gu itar class."""
     guitars = []
 
     print("My guitars!")
@@ -15,7 +15,7 @@ def main():
         print(guitar_to_add, "added.")
         name = input("Name: ")
 
-    guitars.append(Guitar("Gibson L-5 CES", 1922, 16035.40))
+    guitars.append(Guitar("Gib son L-5 CES", 1922, 16035.40))
     guitars.append(Guitar("Line 6 JTV-59", 2010, 1512.9))
 
     if guitars:  # lists, strings and other collections are False when empty, True when non-empty
