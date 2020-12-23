@@ -7,6 +7,9 @@ class Car:
         """Initialise a Car instance.
         name: string, reference name for car
         fuel: float, one unit of fuel drives one kilometre
+
+
+
         """
         self.name = name
         self.fuel = fuel
