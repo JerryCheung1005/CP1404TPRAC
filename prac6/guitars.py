@@ -2,7 +2,7 @@ from prac6.guitar import Guitar
 
 
 def main():
-    """Guitar pr ogram, u sing Gu itar class."""
+    """Guitar pr ogr am, u sing Gu itar class."""
     guitars = []
 
     print("My guitars!")
