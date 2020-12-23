@@ -15,7 +15,7 @@ class Guitar:
         return "{} ({}) : ${:,.2f}".format(self.name, self.year, self.cost)
 
     def get_age(self):
-        """Get the age of a guitar based on the CURRENT_YEAR."""
+        """Get the age of a guitar based on the C URRENT_YEAR."""
         return CURRENT_YEAR - self.year
 
     def is_vintage(self):

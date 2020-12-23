@@ -4,7 +4,7 @@ CURRENT_YEAR = 2017
 
 
 def run_tests():
-    """Tests for Guitar class."""
+    """Tests for Guita r class."""
     name = "Gibson L-5 CES"
     year = 1922
     cost = 16035.40
