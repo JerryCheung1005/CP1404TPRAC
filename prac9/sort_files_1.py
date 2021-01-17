@@ -15,6 +15,7 @@ def main():
             os.mkdir(extension)
         except FileExistsError:
             pass
+
         print("{}/{}".format(extension, filename))
         os.rename(filename, "{}/{}".format(extension, filename))
 
